@@ -1,0 +1,121 @@
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-inline: 8.2rem 40%;
+    padding-top: 10%;
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    z-index: -1;
+}
+
+.hero h2,
+.hero p {
+    color: #fff;
+    text-align: center;
+    font-family: var(--second-font);
+}
+
+.hero h2 {
+    text-align: start;
+    font-size: 3rem;
+    font-weight: 700;
+    font-size: var(--second-font-l);
+    margin-bottom: 2.5rem;
+}
+
+.hero p {
+    text-align: start;
+    font-size: var(--second-font-s);
+    font-weight: 400;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.rating p {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: var(--main-font-xl);
+    text-align: start;
+    padding-inline: 7rem;
+    margin-top: 5rem;
+}
+
+
+ul.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+    padding-inline: 7rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.wrapper li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+    gap: 3rem;
+    transition: all 0.2s ease-out;
+}
+
+ul.wrapper li:hover {
+    transform: scale(1.05);
+}
+
+ul.wrapper h2,
+ul.wrapper p {
+    margin-left: 1.6rem;
+}
+
+
+ul.wrapper h2 {
+    margin-top: 1rem;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    font-size: var(--main-font-m);
+
+}
+
+ul.wrapper p {
+    color: #828282;
+    font-weight: 400;
+    font-size: var(--main-font-s);
+}

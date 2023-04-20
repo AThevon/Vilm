@@ -1,0 +1,24 @@
+:root {
+    --blue: #1A1F38;
+    --dark-blue: #050E12;
+    --yellow: #FFDA18;
+
+    --main-font: 'Inter', sans-serif;
+    --second-font: 'Roboto', sans-serif;
+
+    ---main-font-s: 1.2rem;
+    --main-font-m: 1.8rem;
+    --main-font-l: 3.6rem;
+    --main-font-xl: 4.8rem;
+
+    --second-font-s: 2.8rem;
+    --second-font-m: 3.6rem;
+    --second-font-l: 6.4rem;
+
+
+}
+
+body {
+    color: #F0F0F0;
+    font-family: var(--main-font);
+}

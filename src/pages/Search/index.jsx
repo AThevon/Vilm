@@ -1,13 +1,12 @@
+import './index.css';
 import Header from "../../components/Header";
 
-
-const Single = () => {
+const Search = () => {
     return (
         <div>
             <Header />
         </div>
     );
-};
+}
 
-export default Single;
-
+export default Search;
