@@ -17,7 +17,10 @@ const useFetch = (url) => {
                 console.log('fetching error :', err);
                 setError('Data can\'t be fetched :' + err );
             } finally {
-                setIsLoading(false);
+                setTimeout (() => {
+                    setIsLoading(false);
+                },500);
+                    
             }
         }
         

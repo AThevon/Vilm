@@ -1,0 +1,23 @@
+footer {
+    width: 100vw;
+    padding-block: 14rem;
+    padding-left: 7rem;
+    text-align: start;
+    font-size: 3.6rem;
+    font-weight: 300;
+}
+
+p.title-footer {
+    
+
+}
+
+p.title-footer span{
+    font-weight: 700;
+
+
+}
+
+p.credits-footer {
+    font-size: 2.4rem;
+}

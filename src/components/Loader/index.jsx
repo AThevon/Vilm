@@ -1,9 +1,11 @@
 import './index.css';
 
 const Loader = () => (
-    <div className="box">
-			<div className="loader10"></div>
+	<div className="item">
+		<div className="main-loader">
+			<div className="loader" id="loader-3"></div>
 		</div>
+	</div>
 );
 
 export default Loader;

@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/movie/:id" element={<Single />} />
-          <Route path="/tv/:id" element={<Single />} />
-          <Route path="/search/:search" element={<Search />} />
+          <Route path="/movie/:id" element={<Single type='movie' />} />
+          <Route path="/tv/:id" element={<Single type='tv' />} />
+          <Route path="/search" element={<Search />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </Router>

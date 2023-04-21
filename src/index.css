@@ -16,8 +16,7 @@ code {
   text-align: center;
 }
 body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  background-color: #000;
   width: 100vw;
 }
 

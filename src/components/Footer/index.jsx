@@ -1,8 +1,10 @@
+import './index.css';
+
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>Vilm © 2021</p>
-            <p>powered by tmdb</p>
+            <p className='title-footer'><span>Vilm</span> © 2021</p>
+            <p className='credits-footer'>powered by tmdb</p>
         </footer>
     )
 }

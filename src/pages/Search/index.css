@@ -1,0 +1,17 @@
+h3.search-title {
+    font-weight: 700;
+    margin-top: 12rem;
+}
+
+.wrapper li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper li img {
+    object-fit: contain;
+    height: 29rem;
+}
+
